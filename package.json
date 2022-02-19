@@ -1,0 +1,24 @@
+{
+  "name": "eyrie_networks",
+  "version": "1.0.0",
+  "description": "This is the webiste",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkultracodes/EN.git"
+  },
+  "author": "MK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkultracodes/EN/issues"
+  },
+  "homepage": "https://github.com/mkultracodes/EN#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
