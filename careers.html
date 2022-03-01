@@ -1,0 +1,148 @@
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js" defer></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js" defer></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+
+    <!--css stylesheet-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Eyrie Networks</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+
+            <div class="col-8 d-block d-sm-none">
+                <a class="nav-link d-block d-sm-none" href="./index.html"><img src="img/logo_2.png" style="width:150%;"></a>
+            </div>
+            <div class="col d-block d-sm-none"></div>
+            <div class="col-2 d-block d-sm-none">
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+            
+            <div class ="row">
+            <div class="col-sm-4">
+                <a class="navbar-brand mr-auto img-fluid d-none d-md-block" href="./index.html"><img src="img/logo.png" class="img-fluid"></a>
+            </div>
+                <div class="col-sm-8 collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- <li class="nav-item d-block d-sm-none"><a class="nav-link" href="./index.html"><img src="img/logo.png" class="img-fluid"></a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="./aboutus.html"> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./services.html"> Services</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./careers.html"> Careers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contactus.html"> Contact</a></li>
+                    </ul>
+                </div>    
+            </div>        
+        </div>
+    </nav>
+    
+<!--jumbotron-->
+<header class="jumbotron"> 
+    <div class="container">
+        <div class ="row row-header">
+            <div class="col-12 col-sm-6">
+            </br>
+                <h1>Careers</h1>
+                <p>Interested? We can't wait to meet you!</p>
+                <p>Come apply and join the team.</p>
+                <button id="whiteButton" type="button" class="badge"><a class="nav-link" href="#accordion">OPEN APPLICATIONS</a></button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--main content area-->
+<!--first row-->
+<div id="main" class="container">
+    <div class="row row-content">
+        <div class="col"></div>
+        <div class="col-xl-10 col-lg-9 col-md-7 align-content-center text-center">
+            <h1 class="mt-0">Openings</h1>
+                    <p style="font-size:large;">We are continuously looking for new talent and are happy to announce some open positions. 
+                        </br>
+                        Please Include your desired position in the subject line and attach your resume.
+                        </br>
+                        P.S. – Let us know how you heard about us!</p>
+        </div>
+        <div class="col"></div>
+    </div>
+<!--accordion-->
+    <div class ="row row-content" id="beforeFooter">
+        <div class="col"></div>
+        <div class="col-sm-12 align-content-center"> 
+    <!--         <h2>Corporate Leadership</h2> -->
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" role="tab" id="job1head">
+                        <h3 class="mb-0">
+                            <a data-toggle="collapse" data-target="#job1">
+                            Check back in soon! &ThickSpace; <small>There are currently no job openings at this time.</small>
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="collapse show" id="job1" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Details found below.</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="job2head">
+                        <h3 class="mb-0">
+                            <a data-toggle="collapse" data-target="#job2">
+                            - 
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="collapse" id="job2" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Details written here with links to some webpage.</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="job3head">
+                        <h3 class="mb-0">
+                            <a data-toggle="collapse" data-target="#job3">
+                            - 
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="collapse" id="job3" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Details written here with links to some webpage.</p>
+                        </div>
+                    </div> 
+                </div>                       
+            </div>
+        </div> 
+        <div class="col"></div> 
+    </div>
+<!--end-->
+</div>
+
+</body>
+
+<!--footer-->
+<footer class="footer">
+    <div class ="container">
+       <div class ="row justify-content-center">             
+            <div class="col-auto">
+                <p>© Copyright 2018 Eyrie Networks</p>
+            </div>
+       </div>
+    </div>
+</footer>
+</html>

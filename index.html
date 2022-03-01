@@ -14,9 +14,200 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js" defer></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
 
+    <!--css stylesheet-->
+    <link rel="stylesheet" href="css/styles.css">
+
     <title>Eyrie Networks</title>
 </head>
+
 <body>
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+
+            <div class="col-8 d-block d-sm-none">
+                <a class="nav-link d-block d-sm-none" href="./index.html"><img src="img/logo_2.png" style="width:150%;"></a>
+            </div>
+            <div class="col d-block d-sm-none"></div>
+            <div class="col-2 d-block d-sm-none">
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+            
+            <div class ="row">
+            <div class="col-sm-4">
+                <a class="navbar-brand mr-auto img-fluid d-none d-md-block" href="./index.html"><img src="img/logo.png" class="img-fluid"></a>
+            </div>
+                <div class="col-sm-8 collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- <li class="nav-item d-block d-sm-none"><a class="nav-link" href="./index.html"><img src="img/logo.png" class="img-fluid"></a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="./aboutus.html"> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./services.html"> Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./careers.html"> Careers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contactus.html"> Contact</a></li>
+                    </ul>
+                </div>    
+            </div>        
+        </div>
+    </nav>
     
+<!--jumbotron-->
+<header class="jumbotron" id="welcomeJumbotron"> 
+    <div class="container">
+        <div class ="row row-header">
+            <div class="col"></div>
+            <div class="col-12 align-items-center text-center">
+                <h1 style="font-size:xxx-large;">Our Business Is Helping You Grow Yours</h1>
+                <br/>
+                <p class="d-none d-md-block">Our mission at Eyrie Networks is to provide customers with high quality IT Services that include architecture, design, 
+                    and integration of new or modernization of legacy IT solutions. We strive for solutions that are affordable and highly available, maintainable, secure, 
+                    and extensible. Our analysis approach transcends technology trends and incorporates optimal solutions for each customer's environment and challenges.</p>
+            </br>
+                <!-- <button type="button" class="badge"><a class="nav-link" href="./contactus.html">Contact Us</a></button> -->
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+</header>
+
+<!--main content area-->
+<!--first row-->
+<div class="container">
+    <div class="row row-content d-block d-sm-none" style="font-size:large;">
+    <p>Our mission at Eyrie Networks is to provide customers with high quality IT Services that include architecture, design, 
+        and integration of new or modernization of legacy IT solutions. </p>
+    <p>We strive for solutions that are affordable and highly available, maintainable, secure, 
+        and extensible. </p>
+    <p>Our analysis approach transcends technology trends and incorporates optimal solutions for each customer's environment and challenges.</p>
+    </div>
+
+    <div class="row row-content"  id="beforeFooter">
+
+        <!--tab content-->
+        <div class="col-12 d-none d-sm-block">
+            <ul class="nav nav-tabs">
+                <li class="nav-item" id="tabs">
+                  <a class="nav-link active" href="#tab1"
+                    role="tab" data-toggle="tab">Strategy & Consulting</a>
+                </li>
+                <li class="nav-item" id="tabs">
+                    <a class="nav-link" href="#tab2"
+                      role="tab" data-toggle="tab">Architecture & Engineering</a>
+                  </li>
+                <li class="nav-item" id="tabs">
+                  <a class="nav-link" href="#tab3" role="tab"
+                    data-toggle="tab">Targeted Solutions</a>
+                </li>
+                
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade show active" id="tab1">
+                    <div class="media">
+                        <div class="media-body align-self-center">
+                            <div class="col-md-11 col-12" id="larger">
+                                <!-- <h2 class="mt-0" id="titles">Strategy & Consulting</h2> -->
+                                <br/>
+                                <p>Detailed assessments and carefully-considered strategies to transform enterprise-level data, technology, talent, and culture for a digital-first economy.</p>
+                                <br/>
+                                <button id="blueButton" type="button"><a class="nav-link" href="./services.html">Learn More >></a></button>
+                            </div>
+                        </div>
+                        <img  id="pics" src="img/7_2.jpg" alt="Picture4" class="mx-auto align-self-center d-none d-md-block">
+                    </div>
+                </div>
+
+                <div role="tabpane2" class="tab-pane fade" id="tab2">
+                    <div class="media">
+                        <img  id="pics" src="img/9_2.jpg" alt="Picture4" class="mx-auto align-self-center d-none d-md-block">
+                        <div class="media-body align-self-center" id="larger">
+                            <div class="offset-md-2 offset-sm-0">
+                                <!-- <h2 class="mt-0" id="titles">Architechture & Engineering</h2> -->
+                                <br />
+                                <p>Incorporate technical expertise and innovation to deliver quality solutions for mission-critical, legacy and transformational programs for the Federal government.</p>
+                                <br/>
+                                <button id="blueButton" type="button"><a class="nav-link" href="./services.html">Learn More >></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div role="tabpane3" class="tab-pane fade" id="tab3">
+                    <div class="media">
+                        <div class="media-body align-self-center">
+                            <div class="col-md-11 col-12" id="larger">
+                                <!-- <h2 class="mt-0" id="titles">Targeted Solutions</h2> -->
+                                <br/>
+                                <p>The latest technological tools paired with the most innovative solutions help drive prospects to your acquisition funnel.</p>
+                                <br/>
+                                <button id="blueButton" type="button"><a class="nav-link" href="./services.html">Learn More >></a></button>
+                            </div>
+                        </div>
+                        <img  id="pics" src="img/8_2.jpeg" alt="Picture4" class="mx-auto align-self-center d-none d-md-block">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!--tab content mobile screen-->
+        <div class="col-12 d-block d-sm-none">
+                            <h3 class="mt-0" id="titles" style="text-align:center;">What We Do</h3>
+                            <div class="col-md-11 col-12" id="smallTabs">
+                                <!-- <h3 class="mt-0" id="titles">Strategy & Consulting</h3> -->
+                                <br/>
+                                <p>Detailed assessments and carefully-considered strategies to transform enterprise-level data, technology, talent, and culture for a digital-first economy.</p>
+                                
+                            </div>
+
+                            <div class="col-md-11 col-12" id="smallTabs" style="padding-bottom:10px;">
+                                <!-- <h2 class="mt-0" id="titles">Architechture & Engineering</h2> -->
+                                <br />
+                                <p>Incorporate technical expertise and innovation to deliver quality solutions for mission-critical, legacy and transformational programs for the Federal government.</p>
+                                
+                            </div>
+
+                            <div class="col-md-11 col-12">
+                                <!-- <h2 class="mt-0" id="titles">Targeted Solutions</h2> -->
+                                <br/>
+                                <p>The latest technological tools paired with the most innovative solutions help drive prospects to your acquisition funnel.</p>
+                                <br/>
+                                <button id="blueButton" type="button"><a class="nav-link" href="./services.html">Learn More >></a></button>
+                            </div>
+                        
+                
+            </div>
+        </div>
+        
+        <!-- <div class="col-md-4 col-sm-6 text-center">
+            <a href="./aboutus.html">
+                <p id="bottomThumbnail" class="glow">About Us</p>
+            </a>
+        
+        </div>
+        <div class="d-block d-sm-none" style="margin:20px;"></div>
+        <div class="col-md-4 col-sm-6 text-center">
+            <a href="./services.html">
+                <p id="bottomThumbnail" class="glow">Services</p>
+            </a>
+        </div>
+        <div class="d-block d-sm-none" style="margin:20px;"></div>
+        <div class="col-md-4 col-sm-6 text-center">
+            <a href="./careers.html">
+                <p id="bottomThumbnail" class="glow">Careers</p>
+            </a>
+        </div> -->
+        
+</div>
+<!--end-->
+
 </body>
+<footer class="footer">
+    <div class ="container">
+       <div class ="row justify-content-center">             
+            <div class="col-auto">
+                <p>© Copyright 2018 Eyrie Networks</p>
+            </div>
+       </div>
+    </div>
+</footer>
 </html>
